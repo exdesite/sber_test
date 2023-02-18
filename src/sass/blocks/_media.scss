@@ -1,0 +1,170 @@
+@media (min-width: 576px) {
+    .playAndEarn {
+        &__wrapper-image-mobile {
+            display: none;
+        }
+    }
+    .satisfaction {
+        &__title-mobile {
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+    .gadgets {
+        padding: 105px 16px 0 16px;
+        &__title {
+            width: 343px;
+            height: 108px;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 36px;
+            text-align: center;   
+            color: rgba(255, 255, 255, 0.96);
+            margin-bottom: 2px;      
+        }
+        &__subtitle {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            letter-spacing: -0.019em;
+            color: rgba(255, 255, 255, 0.56);
+            margin-bottom: 32px;
+        }
+        &__wrapper {
+            display: grid;
+            grid-template-columns: 357px;
+            grid-template-rows: repeat(2, 361px);
+            justify-content: center;
+            row-gap: 48px;
+    
+        }
+        &__wrapper-img {
+            img {
+                width: 347px;
+                height: 361px;
+            }
+        }
+        &__wrapper-title {
+            font-size: 24px;
+            line-height: 30px;
+        }
+        &__wrapper-description {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        &__wrapper-description-Box {
+            width: 247px;
+            height: 136px;
+            top: 94px;
+            left: 55px;
+        }
+        &__wrapper-description-Portal {
+            width: 247px;
+            height: 48px;
+            top: 233px;
+            left: 54px;
+        }
+    }
+    .playAndEarn {
+        padding: 0px 16px 136px 16px;
+        
+        &__title {
+            width: 343px;
+            height: 92px;
+            font-size: 40px;
+            line-height: 46px; 
+        }
+        &__wrapper{
+            padding-top: 0px;
+            &-image {
+                display: none;
+            }
+            &-image-mobile {
+                height: 611px;
+            }
+            &-title {
+                font-size: 24px;
+                line-height: 30px;
+            }
+            &-description {   
+                padding: 60px 0 0 31px;
+                font-size: 18px;
+                line-height: 26px;
+            }
+            &-button {
+                left: 33px;
+                top: 23px;
+            }
+           
+        }
+
+
+    }
+    .satisfaction {
+        padding: 78px 16px 69px 19px;
+        margin: 0 auto;
+        &__title {
+            display: none;
+        }
+        &__card-description {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 16px;
+            position: absolute;
+            width: 307px;
+            height: 166px;
+            left: 20px;
+            top: 25px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 30px;
+            color: rgba(255, 255, 255, 0.96);
+
+        }
+        &__wrapper {
+            width: 343px;
+            height: 641px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__card-purple {
+            width: 342px;
+            height: 378px;
+            left: -3px;
+            top: -3px;
+            position: absolute;
+            background: #944BD6;
+            border-radius: 16px;
+            margin-top: 27px;
+            
+        }
+        &__card-blue {
+            width: 342px;
+            height: 381px;
+            left: -3px;
+            top: 210px;
+            position: absolute;
+            background: #135AED;
+            border-radius: 16px;
+        }
+        &__card-green { 
+            width: 342px;
+            height: 214px;
+            left: -3px;
+            top: 420px;
+            position: absolute;
+            background: #B7D521;
+            border-radius: 16px;
+        }
+    }
+}

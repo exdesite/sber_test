@@ -1,0 +1,58 @@
+.playAndEarn {
+    padding: 112px 67px 0 70px;
+    margin-bottom: 106px;
+    &__title {
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 68px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        padding-top: 56px;
+        &-image {
+            position: absolute;          
+        }
+        &-image-mobile {
+            position: absolute;
+            width: 343px;
+            height: 611px;
+        }
+        &-description {
+            padding: 20px 0 0 48px;
+            position: relative;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -0.019em;
+            color: rgba(255, 255, 255, 0.56);  
+        }
+        &-button { 
+            position: relative;
+            width: 145px;
+            height: 56px;
+            font-weight: 600;
+            background: #3f74ef;
+            font-size: 16px;
+            line-height: 20px;
+            border-radius: 100px;
+            border: none;
+            align-items: center;
+            letter-spacing: -0.018em;
+            left: 49px;
+            top: 91px;
+            color: rgba(255, 255, 255, 0.96);
+            a {
+                color: rgba(255, 255, 255, 0.96);
+                text-decoration: none;
+            }            
+        }
+        &-title {
+            margin-bottom: 16px;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 36px;
+            color: #FFFFFF;
+        }
+    }
+}
